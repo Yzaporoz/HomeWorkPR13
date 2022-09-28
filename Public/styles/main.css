@@ -1,0 +1,75 @@
+/* 
+    CONFIG
+    ------------
+    container width 1138
+    font Arial
+    color-primary-text: #000
+    color-date-text: #959CAD;
+    color-common-text: #7D7E80;
+    gap-top: 41px
+    gap-between: 50px;
+    gap-bottom: 102px;
+*/
+
+
+
+/* COMMON */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1138px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-page-block {
+    margin-top: 41px;
+    margin-bottom: 102px;
+}
+
+/* NEWS HEADER */
+
+.news-header {
+    margin-bottom: 50px;
+}
+
+.news-header h1 {
+    margin-bottom: 44px;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.news-header time {
+    font-size: 12px;
+    line-height: 16px;
+    color: #959CAD;
+}
+
+/* NEWS CONTENT */
+
+.news-content figure {
+    margin: 50px 0;
+}
+
+.news-content p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #7D7E80;
+    margin: 20px 0;
+}
+
+.news-content h2,
+.news-content .accent-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 40px 0;
+    color: #000;
+}
